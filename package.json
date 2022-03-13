@@ -1,0 +1,16 @@
+{
+  "name": "esac-matchmaking-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "socket.io": "^2.4.1"
+  }
+}

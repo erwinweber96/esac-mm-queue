@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  esac-tm-controller1:
+    network_mode: host
+    image: esac-matchmaking-queue
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 2052:2052
+    expose:
+      - 2052
